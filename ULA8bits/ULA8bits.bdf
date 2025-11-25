@@ -407,6 +407,23 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 112 80))
 	)
 )
+(symbol
+	(rect 288 160 320 192)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst2" (rect 3 21 26 33)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(pt 368 168)
 	(pt 400 168)
@@ -483,28 +500,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 648 192)
-	(pt 544 192)
-	(bus)
-)
-(connector
-	(pt 544 192)
-	(pt 544 168)
-	(bus)
-)
-(connector
 	(pt 544 168)
 	(pt 448 168)
-	(bus)
-)
-(connector
-	(pt 616 344)
-	(pt 616 208)
-	(bus)
-)
-(connector
-	(pt 648 208)
-	(pt 616 208)
 	(bus)
 )
 (connector
@@ -643,6 +640,34 @@ applicable agreement for further details.
 	(pt 528 240)
 	(pt 592 240)
 	(bus)
+)
+(connector
+	(pt 648 192)
+	(pt 616 192)
+	(bus)
+)
+(connector
+	(pt 616 192)
+	(pt 616 344)
+	(bus)
+)
+(connector
+	(pt 648 208)
+	(pt 544 208)
+	(bus)
+)
+(connector
+	(pt 544 168)
+	(pt 544 208)
+	(bus)
+)
+(connector
+	(pt 392 112)
+	(pt 304 112)
+)
+(connector
+	(pt 304 112)
+	(pt 304 160)
 )
 (junction (pt 368 80))
 (junction (pt 368 168))

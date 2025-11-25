@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 40 256 208 272)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "sIN" (rect 5 0 23 12)(font "Arial" ))
+	(text "sIN" (rect 5 0 22 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -309,11 +309,6 @@ applicable agreement for further details.
 	(pt 264 264)
 	(pt 208 264)
 )
-(connector
-	(pt 208 264)
-	(pt 200 264)
-)
 (junction (pt 640 336))
 (junction (pt 240 96))
 (junction (pt 216 144))
-(junction (pt 208 264))
