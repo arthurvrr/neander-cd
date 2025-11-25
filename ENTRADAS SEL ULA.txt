@@ -1,0 +1,7 @@
+Entrada Ativa (Vem do Controle),Saída OP[2..0] (Vai para a ULA)
+ULA_ADD,	0 0 0
+ULA_AND,	0 0 1
+ULA_OR,		0 1 0
+ULA_NOT,	0 1 1
+ULA_Y (LDA),	1 0 0
+Nenhuma,	"X X X (Tanto faz, ou 111)"
