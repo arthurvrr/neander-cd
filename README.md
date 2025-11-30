@@ -9,12 +9,12 @@ FASE 01: LÓGICA COMBINACIONAL
 * [X] ULA.
 FASE 02: ELEMENTOS DE MEMÓRIA
 * [ ]  REGISTRADORES
-    *  [ ] AC.
+    *  [x] AC.
     *  [ ] RDM.
     *  [ ] REM.
     *  [ ] RI.
 * [ ] Program Counter (PC).
-* [ ] Flags N e Z de 1 bit.
+* [x] Flags N e Z de 1 bit.
 FASE 03: TEMPORIZADOR
 * [X] Contador 3bits.
 * [X] Temporizador.
