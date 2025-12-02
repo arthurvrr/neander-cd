@@ -1,7 +1,28 @@
-Entrada Ativa (Vem do Controle),Saída OP[2..0] (Vai para a ULA)
-ULA_ADD,	0 0 0
-ULA_AND,	0 0 1
-ULA_OR,		0 1 0
-ULA_NOT,	0 1 1
-ULA_Y (LDA),	1 0 0
-Nenhuma,	"X X X (Tanto faz, ou 111)"
+=======================================
+OPCODE NEADER:
+---------------------------------------
+4MSB    INST    NA UNIDADE DE CONTROLE
+---------------------------------------
+0000	NOP	Saída para nop_op
+0001	STA	Saída para sta_op
+0010	LDA	Saída para lda_op
+0011	ADD	Saída para add_op
+0100	OR	Saída para or_op
+0101	AND	Saída para and_op
+0110	NOT	Saída para not_op
+1000	JMP	Saída para jmp_op
+1001	JN	Saída para jn_op
+1010	JZ	Saída para jz_op
+1111	HLT	Saída para hlt_op
+---------------------------------------
+
+====================================
+CODIFICADOR - CÓDIGOS DE 3 BITS:
+------------------------------------
+SAIDA UC 	COD. SELETOR NA ULA         
+------------------------------------
+ULA_ADD			0 0 0
+ULA_AND			0 0 1 
+ULA_OR			0 1 0 
+ULA_NOT			0 1 1
+ULA_Y (LDA)		1 0 0
