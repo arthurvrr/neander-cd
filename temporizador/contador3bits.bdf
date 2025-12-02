@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 328 224 344)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "enable" (rect 5 0 37 12)(font "Arial" ))
+	(text "enable" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 272 224 288)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "reset" (rect 5 0 30 12)(font "Arial" ))
+	(text "reset" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -514,31 +514,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 360 264 408 296)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst13" (rect 3 21 32 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
-	)
-)
-(symbol
 	(rect 944 272 1008 320)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst14" (rect 3 37 32 49)(font "Arial" ))
@@ -838,14 +813,6 @@ applicable agreement for further details.
 	(pt 424 192)
 )
 (connector
-	(pt 408 280)
-	(pt 424 280)
-)
-(connector
-	(pt 360 280)
-	(pt 224 280)
-)
-(connector
 	(pt 528 440)
 	(pt 1024 440)
 )
@@ -880,14 +847,6 @@ applicable agreement for further details.
 (connector
 	(pt 976 160)
 	(pt 976 256)
-)
-(connector
-	(pt 424 192)
-	(pt 424 280)
-)
-(connector
-	(pt 424 280)
-	(pt 424 304)
 )
 (connector
 	(pt 1024 440)
@@ -996,6 +955,18 @@ applicable agreement for further details.
 (connector
 	(pt 1064 240)
 	(pt 712 240)
+)
+(connector
+	(pt 224 280)
+	(pt 424 280)
+)
+(connector
+	(pt 424 192)
+	(pt 424 280)
+)
+(connector
+	(pt 424 280)
+	(pt 424 304)
 )
 (junction (pt 528 440))
 (junction (pt 640 184))

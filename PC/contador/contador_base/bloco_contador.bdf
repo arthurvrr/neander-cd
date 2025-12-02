@@ -71,7 +71,23 @@ applicable agreement for further details.
 	(input)
 	(rect 168 64 336 80)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "SEL" (rect 5 0 26 12)(font "Arial" ))
+	(text "SEL" (rect 5 0 25 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 168 96 336 112)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "rst" (rect 5 0 18 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -113,22 +129,6 @@ applicable agreement for further details.
 	(drawing
 		(line (pt 8 8)(pt 24 8))
 	)
-)
-(symbol
-	(rect 592 240 624 256)
-	(text "VCC" (rect 5 6 25 16)(font "Arial" (font_size 6)))
-	(text "inst3" (rect 6 -1 29 11)(font "Arial" )(invisible))
-	(port
-		(pt 16 0)
-		(output)
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 8 -3 13 9)(font "Courier New" (bold))(invisible))
-		(line (pt 16 0)(pt 16 8))
-	)
-	(drawing
-		(line (pt 24 8)(pt 8 8))
-	)
-	(rotate180)
 )
 (symbol
 	(rect 576 160 640 240)
@@ -260,5 +260,14 @@ applicable agreement for further details.
 	(text "SEL" (rect 274 192 294 204)(font "Arial" ))
 	(pt 368 208)
 	(pt 264 208)
+)
+(connector
+	(pt 608 240)
+	(pt 608 344)
+)
+(connector
+	(text "rst" (rect 490 328 502 340)(font "Arial" ))
+	(pt 608 344)
+	(pt 480 344)
 )
 (junction (pt 640 184))
