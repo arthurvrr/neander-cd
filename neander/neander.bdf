@@ -104,7 +104,7 @@ applicable agreement for further details.
 	(output)
 	(rect -416 200 -240 216)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "MAC10[6..0]" (rect 5 0 67 12)(font "Arial" ))
+	(text "MAC10[6..0]" (rect 5 0 66 12)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 176 8)(pt 124 8))
@@ -121,7 +121,7 @@ applicable agreement for further details.
 	(output)
 	(rect -416 312 -240 328)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "mAC9[6..0]" (rect 5 0 62 12)(font "Arial" ))
+	(text "mAC9[6..0]" (rect 5 0 61 12)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 176 8)(pt 124 8))
@@ -138,7 +138,7 @@ applicable agreement for further details.
 	(output)
 	(rect -24 -656 152 -640)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "minPC[6..0]" (rect 5 0 65 12)(font "Arial" ))
+	(text "minPC[6..0]" (rect 5 0 64 12)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 176 8)(pt 124 8))
@@ -150,6 +150,56 @@ applicable agreement for further details.
 		(line (pt 98 12)(pt 94 8))
 	)
 	(flipy)
+)
+(pin
+	(output)
+	(rect 296 176 312 352)
+	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
+	(text "N_flag" (rect 4 90 16 123)(font "Arial" )(vertical))
+	(pt 8 0)
+	(drawing
+		(line (pt 8 0)(pt 8 52))
+		(line (pt 12 52)(pt 12 78))
+		(line (pt 4 52)(pt 4 78))
+		(line (pt 4 52)(pt 12 52))
+		(line (pt 12 78)(pt 8 82))
+		(line (pt 8 82)(pt 4 78))
+		(line (pt 4 78)(pt 8 82))
+	)
+	(rotate270)
+)
+(pin
+	(output)
+	(rect 392 176 408 352)
+	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
+	(text "Z_flag" (rect 4 90 16 121)(font "Arial" )(vertical))
+	(pt 8 0)
+	(drawing
+		(line (pt 8 0)(pt 8 52))
+		(line (pt 12 52)(pt 12 78))
+		(line (pt 4 52)(pt 4 78))
+		(line (pt 4 52)(pt 12 52))
+		(line (pt 12 78)(pt 8 82))
+		(line (pt 8 82)(pt 4 78))
+		(line (pt 4 78)(pt 8 82))
+	)
+	(rotate270)
+)
+(pin
+	(output)
+	(rect 1136 -16 1312 0)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "HLTled" (rect 90 0 124 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
 )
 (symbol
 	(rect 816 16 912 208)
@@ -1378,10 +1428,6 @@ applicable agreement for further details.
 	(pt 920 -8)
 )
 (connector
-	(pt 584 -8)
-	(pt 920 -8)
-)
-(connector
 	(pt 584 -32)
 	(pt 584 -8)
 )
@@ -1564,20 +1610,12 @@ applicable agreement for further details.
 	(pt 304 144)
 )
 (connector
-	(pt 304 144)
-	(pt 304 -8)
-)
-(connector
 	(pt 760 128)
 	(pt 400 128)
 )
 (connector
 	(pt 392 -8)
 	(pt 400 -8)
-)
-(connector
-	(pt 400 -8)
-	(pt 400 128)
 )
 (connector
 	(pt 264 -32)
@@ -2206,6 +2244,30 @@ applicable agreement for further details.
 	(pt -88 -392)
 	(pt -128 -392)
 )
+(connector
+	(pt 400 -8)
+	(pt 400 128)
+)
+(connector
+	(pt 400 128)
+	(pt 400 176)
+)
+(connector
+	(pt 304 -8)
+	(pt 304 144)
+)
+(connector
+	(pt 304 144)
+	(pt 304 176)
+)
+(connector
+	(pt 584 -8)
+	(pt 920 -8)
+)
+(connector
+	(pt 920 -8)
+	(pt 1136 -8)
+)
 (junction (pt 264 -40))
 (junction (pt 216 -88))
 (junction (pt 200 24))
@@ -2215,3 +2277,6 @@ applicable agreement for further details.
 (junction (pt 664 -368))
 (junction (pt 600 -512))
 (junction (pt 96 232))
+(junction (pt 400 128))
+(junction (pt 304 144))
+(junction (pt 920 -8))
