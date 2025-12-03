@@ -48,6 +48,11 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulati
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE conversor.bdf
+set_global_assignment -name VHDL_FILE rom.vhd
+set_global_assignment -name BDF_FILE PC.bdf
+set_global_assignment -name BDF_FILE contador_8bits.bdf
+set_global_assignment -name BDF_FILE bloco_contador.bdf
 set_global_assignment -name BDF_FILE div_freq.bdf
 set_global_assignment -name VHDL_FILE neander.vhd
 set_global_assignment -name BDF_FILE codificador.bdf

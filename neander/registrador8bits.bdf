@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 48 264 216 280)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rst" (rect 5 0 18 12)(font "Arial" ))
+	(text "rst" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 40 -56 208 -40)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "I[7..0]" (rect 5 0 35 12)(font "Arial" ))
+	(text "I[7..0]" (rect 5 0 34 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -147,31 +147,6 @@ applicable agreement for further details.
 		(line (pt 12 32)(pt 20 40))
 		(circle (rect 28 4 36 12))
 		(circle (rect 28 68 36 76))
-	)
-)
-(symbol
-	(rect 272 256 320 288)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst2" (rect 3 21 26 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
 	)
 )
 (symbol
@@ -580,10 +555,6 @@ applicable agreement for further details.
 	(pt 480 240)
 )
 (connector
-	(pt 216 272)
-	(pt 272 272)
-)
-(connector
 	(pt 480 160)
 	(pt 480 144)
 )
@@ -670,15 +641,7 @@ applicable agreement for further details.
 	(pt 1352 272)
 )
 (connector
-	(pt 320 272)
-	(pt 480 272)
-)
-(connector
 	(pt 600 240)
-	(pt 600 272)
-)
-(connector
-	(pt 480 272)
 	(pt 600 272)
 )
 (connector
@@ -1060,6 +1023,14 @@ applicable agreement for further details.
 	(pt 248 16)
 	(pt 248 384)
 	(bus)
+)
+(connector
+	(pt 216 272)
+	(pt 480 272)
+)
+(connector
+	(pt 480 272)
+	(pt 600 272)
 )
 (junction (pt 536 96))
 (junction (pt 416 96))
